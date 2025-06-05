@@ -1,4 +1,3 @@
-/* Reset and base styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -181,4 +180,12 @@ body.dark-mode .clear-history-btn {
 
 body.dark-mode .clear-history-btn:hover {
   color: #fff;
+}
+
+body.dark-mode #history-list li {
+  color: white;
+}
+
+body.dark-mode #history-container h3 {
+  color: white;
 }
